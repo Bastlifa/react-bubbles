@@ -16,7 +16,7 @@ const BubblePage = () => {
       .get(`http://localhost:5000/api/colors`)
         .then(res =>
           {
-            console.log("res from getColorData", res)
+            // console.log("res from getColorData", res)
             setColorList(res.data)
           })
         .catch(err =>
