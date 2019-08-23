@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { axiosWithAuth } from '../utils/axiosWithAuth'
 
 const initialColor = {
   color: "",
